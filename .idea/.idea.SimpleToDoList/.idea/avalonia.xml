@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="SimpleToDoList/App.axaml" value="SimpleToDoList/SimpleToDoList.csproj" />
+        <entry key="SimpleToDoList/ViewModels/MainViewModel.axaml" value="SimpleToDoList/SimpleToDoList.csproj" />
+        <entry key="SimpleToDoList/Views/MainWindow.axaml" value="SimpleToDoList/SimpleToDoList.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

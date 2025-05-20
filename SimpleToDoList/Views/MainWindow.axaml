@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SimpleToDoList.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Width="300" Height="500" Padding="10"
+        x:Class="SimpleToDoList.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="SimpleToDoList" WindowStartupLocation="CenterOwner">
+    
+    <Grid RowDefinitions="Auto,*,Auto" ShowGridLines="false" x:Name="Root">
+            <TextBlock Classes="h1" Text="My ToDo-List"/>
+            <ScrollViewer Grid.Row="1">
+                <ItemsControl ItemsSource="{Binding ToDoItems}">
+                    <ItemsControl.DataTemplates>
+                        <DataTemplate DataType="vm:ToDoItemViewModel">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <CheckBox Content="{Binding Content}" IsChecked="{Binding IsChecked}"/>
+                                <Button Content="Delete" Command="{Binding #Root.((vm:MainWindowViewModel)DataContext).RemoveItemCommand}" CommandParameter="{Binding .}" Grid.Column="1"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.DataTemplates>
+                </ItemsControl>
+            </ScrollViewer>
+            <!-- <TextBox Grid.Row="2" Text="{Binding NewItemContent}" Watermark="Add a new item"/> -->
+            <TextBox Grid.Row="2" Text="{Binding NewItemContent}" Watermark="Add a new item">
+                <TextBox.InnerRightContent>
+                    <Button Content="Add" Command="{Binding AddItemCommand}"/>
+                </TextBox.InnerRightContent>
+                <TextBox.KeyBindings>
+                    <KeyBinding Command="{Binding AddItemCommand}" Gesture="Enter"/>
+                </TextBox.KeyBindings>
+            </TextBox>
+        </Grid>  
+</Window>
