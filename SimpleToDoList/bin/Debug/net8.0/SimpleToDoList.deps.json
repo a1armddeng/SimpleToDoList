@@ -14,7 +14,8 @@
           "Avalonia.Fonts.Inter": "11.0.10",
           "Avalonia.ReactiveUI": "11.0.10",
           "Avalonia.Themes.Fluent": "11.0.10",
-          "CommunityToolkit.Mvvm": "8.4.0"
+          "CommunityToolkit.Mvvm": "8.4.0",
+          "Semi.Avalonia": "11.0.1"
         },
         "runtime": {
           "SimpleToDoList.dll": {}
@@ -619,6 +620,17 @@
           }
         }
       },
+      "Semi.Avalonia/11.0.1": {
+        "dependencies": {
+          "Avalonia": "11.0.10"
+        },
+        "runtime": {
+          "lib/net6.0/Semi.Avalonia.dll": {
+            "assemblyVersion": "11.0.1.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
       "SkiaSharp/2.88.7": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "2.88.7",
@@ -1180,6 +1192,13 @@
       "sha512": "sha512-0tclGtjrRPfA2gbjiM7O3DeNmo6/TpDn7CMN6jgzDrbgrnysM7oEzjGEeXbtXaOxH6kEf6RiMKWobZoSgbBXhQ==",
       "path": "reactiveui/18.3.1",
       "hashPath": "reactiveui.18.3.1.nupkg.sha512"
+    },
+    "Semi.Avalonia/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iswElH/UtuJq9C2p6W1xiKbt0cPMm/TdukbMKAKIhYMaFwPDxv/+yNSanOkbKF/cY84jYd9lp+cFufh9vmN5UQ==",
+      "path": "semi.avalonia/11.0.1",
+      "hashPath": "semi.avalonia.11.0.1.nupkg.sha512"
     },
     "SkiaSharp/2.88.7": {
       "type": "package",

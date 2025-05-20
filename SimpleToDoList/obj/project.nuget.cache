@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tzFTF9KU0OI=",
+  "dgSpecHash": "fn/t80wA4Rc=",
   "success": true,
   "projectFilePath": "E:\\06IEMKatowice\\AvaloniaProjects\\SimpleToDoList\\SimpleToDoList\\SimpleToDoList.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\liukunxy\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\liukunxy\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\liukunxy\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
+    "C:\\Users\\liukunxy\\.nuget\\packages\\semi.avalonia\\11.0.1\\semi.avalonia.11.0.1.nupkg.sha512",
     "C:\\Users\\liukunxy\\.nuget\\packages\\skiasharp\\2.88.7\\skiasharp.2.88.7.nupkg.sha512",
     "C:\\Users\\liukunxy\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.7\\skiasharp.nativeassets.linux.2.88.7.nupkg.sha512",
     "C:\\Users\\liukunxy\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.7\\skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",

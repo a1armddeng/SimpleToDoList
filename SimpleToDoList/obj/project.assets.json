@@ -799,6 +799,18 @@
           }
         }
       },
+      "Semi.Avalonia/11.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Semi.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Semi.Avalonia.dll": {}
+        }
+      },
       "SkiaSharp/2.88.7": {
         "type": "package",
         "dependencies": {
@@ -2530,6 +2542,19 @@
         "logo.png",
         "reactiveui.18.3.1.nupkg.sha512",
         "reactiveui.nuspec"
+      ]
+    },
+    "Semi.Avalonia/11.0.1": {
+      "sha512": "iswElH/UtuJq9C2p6W1xiKbt0cPMm/TdukbMKAKIhYMaFwPDxv/+yNSanOkbKF/cY84jYd9lp+cFufh9vmN5UQ==",
+      "type": "package",
+      "path": "semi.avalonia/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Semi.Avalonia.dll",
+        "lib/netstandard2.0/Semi.Avalonia.dll",
+        "semi.avalonia.11.0.1.nupkg.sha512",
+        "semi.avalonia.nuspec"
       ]
     },
     "SkiaSharp/2.88.7": {
@@ -4635,7 +4660,8 @@
       "Avalonia.Fonts.Inter >= 11.0.10",
       "Avalonia.ReactiveUI >= 11.0.10",
       "Avalonia.Themes.Fluent >= 11.0.10",
-      "CommunityToolkit.Mvvm >= 8.4.0"
+      "CommunityToolkit.Mvvm >= 8.4.0",
+      "Semi.Avalonia >= 11.0.1"
     ]
   },
   "packageFolders": {
@@ -4715,6 +4741,10 @@
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.4.0, )"
+          },
+          "Semi.Avalonia": {
+            "target": "Package",
+            "version": "[11.0.1, )"
           }
         },
         "imports": [

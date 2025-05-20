@@ -1,15 +1,25 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:semi="https://irihi.tech/semi"
              x:Class="SimpleToDoList.App"
              xmlns:local="using:SimpleToDoList"
-             RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+             RequestedThemeVariant="Dark">
+    <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.DataTemplates>
-        <local:ViewLocator/>
+        <local:ViewLocator />
     </Application.DataTemplates>
-  
+
     <Application.Styles>
+        <StyleInclude Source="avares://Semi.Avalonia/Themes/Index.axaml" />
+        
+        <Style Selector="Window">
+            <Setter Property="FontFamily" Value="Jetbrains Maple Mono"/>
+        </Style>
+        
+    </Application.Styles>
+
+    <!--<Application.Styles>
         <FluentTheme />
         
         <Style Selector="Window">
@@ -28,5 +38,5 @@
         <Style Selector="CheckBox:pointerover /template/ Grid#RootGrid">
             <Setter Property="Background" Value="{DynamicResource SystemAccentColorLight3}"/>
         </Style>
-    </Application.Styles>
+    </Application.Styles>-->
 </Application>

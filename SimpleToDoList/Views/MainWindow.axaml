@@ -18,7 +18,7 @@
                         <DataTemplate DataType="vm:ToDoItemViewModel">
                             <Grid ColumnDefinitions="*,Auto">
                                 <CheckBox Content="{Binding Content}" IsChecked="{Binding IsChecked}"/>
-                                <Button Content="Delete" Command="{Binding #Root.((vm:MainWindowViewModel)DataContext).RemoveItemCommand}" CommandParameter="{Binding .}" Grid.Column="1"/>
+                                <Button Content="Delete" Command="{Binding #Root.((vm:MainWindowViewModel)DataContext).RemoveItemCommand}" CommandParameter="{Binding .}" Grid.Column="1" Margin="5"/>
                             </Grid>
                         </DataTemplate>
                     </ItemsControl.DataTemplates>
@@ -27,7 +27,7 @@
             <!-- <TextBox Grid.Row="2" Text="{Binding NewItemContent}" Watermark="Add a new item"/> -->
             <TextBox Grid.Row="2" Text="{Binding NewItemContent}" Watermark="Add a new item">
                 <TextBox.InnerRightContent>
-                    <Button Content="Add" Command="{Binding AddItemCommand}"/>
+                    <Button Content="Add" Command="{Binding AddItemCommand}" Margin="5"/>
                 </TextBox.InnerRightContent>
                 <TextBox.KeyBindings>
                     <KeyBinding Command="{Binding AddItemCommand}" Gesture="Enter"/>

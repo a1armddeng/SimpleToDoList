@@ -131,3 +131,4 @@ E:\06IEMKatowice\AvaloniaProjects\SimpleToDoList\SimpleToDoList\obj\Debug\net8.0
 E:\06IEMKatowice\AvaloniaProjects\SimpleToDoList\SimpleToDoList\obj\Debug\net8.0\SimpleToDoList.genruntimeconfig.cache
 E:\06IEMKatowice\AvaloniaProjects\SimpleToDoList\SimpleToDoList\obj\Debug\net8.0\ref\SimpleToDoList.dll
 E:\06IEMKatowice\AvaloniaProjects\SimpleToDoList\SimpleToDoList\obj\Debug\net8.0\SimpleToDoList.sourcelink.json
+E:\06IEMKatowice\AvaloniaProjects\SimpleToDoList\SimpleToDoList\bin\Debug\net8.0\Semi.Avalonia.dll
